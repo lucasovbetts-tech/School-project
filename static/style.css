@@ -5,7 +5,7 @@
 
 .site-nav {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     gap: 1rem;
 }
 
@@ -13,11 +13,21 @@
     background-color: #333;
     border-radius: 4px;
     color: #fff;
-    padding: 0.6rem 1rem;
+    padding: 20px 30px;
     text-decoration: none;
+    border: none;
 }
 
-.nav-button:hover,
-.nav-button:focus-visible {
+.nav-button:hover {
     background-color: #555;
+    cursor: grab;
+}
+
+.nav-button:active {
+    cursor: grabbing;
+}
+
+#CostaLogoImg {
+    height: 60px;
+    width: 60px;
 }
