@@ -1,6 +1,11 @@
+body{
+    background: #730723;
+}
+
 .site-header {
-    background-color: #f2f2f2;
+    background-color: #500519;
     padding: 1rem;
+    border-radius: 12px;
 }
 
 .site-nav {
@@ -30,4 +35,27 @@
 #CostaLogoImg {
     height: 60px;
     width: 60px;
+}
+
+#abtCosta{
+    width: 100%;
+    max-width: 25rem;
+    font-size: larger;
+}
+
+.home-about-section{
+    display: flex;
+    gap: 20px;
+}
+
+#costaImg{
+    padding: 20px;
+}
+
+.logIn-details{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    width: 20%;
+    justify-content: center;
 }
