@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Log In | Costa Coffee</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
-<body>
+<body class="login-page">
     {% include "_header.html" %}
     <div class="logIn-details">
-        <input type="text" placeholder="Enter Username" id="username"></input>
-        <input type="text" placeholder="Enter Password" id="password"></input>
+        <p style="color: white; font-size: larger;">Email</p>
+        <input type="text" placeholder="Enter Username" id="username">
+        <p style="color: white; font-size: larger;">Password</p>
+        <input type="password" placeholder="Enter Password" id="password">
     </div>
 </body>
 </html>
